@@ -1,0 +1,77 @@
+footer {
+  background-color: #000000e6;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+a {
+  color: #ffffff77;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #ffffff77;
+}
+
+.regular-divider-cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.regular-divider {
+  width: 70%;
+  height: 2px;
+  background-color: #222;
+}
+
+.red-divider {
+  background-color: #ff0000;
+  margin-bottom: 3rem;
+  justify-content: left;
+  width: 9rem;
+  height: 2px;
+}
+
+.red-text {
+  color: #ff0000;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.pathway-font {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex-basis: 50%;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+  text-align: left;
+  margin-left: 15rem;
+  // display: flex;
+}
+
+mat-icon {
+  font-size: 1.5rem;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.image {
+  width: 1.5rem;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+}

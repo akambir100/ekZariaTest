@@ -1,0 +1,35 @@
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  // background-color: #000000e6;
+  background-color: black;
+
+  color: white;
+  align-items: center;
+  height: 8rem;
+  padding-top: 2rem;
+  // position: fixed;
+}
+
+.mat-toolbar-row {
+  width: 100%;
+  justify-content: center;
+  opacity: 1;
+}
+
+.mat-toolbar a:visited {
+  color: inherit;
+}
+.mat-toolbar-row a:hover {
+  color: red;
+}
+
+.mat-toolbar a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+body {
+  border: none;
+}

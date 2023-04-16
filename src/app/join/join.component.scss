@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.red-text {
+  color: red;
+}
+
+.main-text {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 11rem;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+.banner {
+  background-image: url("/assets/images/join.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  width: 100%;
+}
+
+.divider-cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.white-divider {
+  width: 70%;
+  height: 2px;
+  background-color: #ffffffa0;
+  margin-top: 2rem;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-col {
+  margin: 0 10px;
+}
+
+mat-form-field {
+  width: 30rem;
+}
+
+button {
+  margin-top: 2rem;
+}

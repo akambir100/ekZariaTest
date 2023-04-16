@@ -1,0 +1,55 @@
+.container {
+  // display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 4rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.red-text {
+  color: red;
+}
+
+.main-text {
+  // color: white;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 11rem;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+.divider-cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.white-divider {
+  width: 70%;
+  height: 2px;
+  background-color: #ffffffa0;
+  margin-top: 2rem;
+}
+
+button {
+  // margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.patients-table {
+  width: 90%;
+}
+
+.mat-mdc-row .mat-mdc-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  border-color: red;
+}
+
+.demo-row-is-clicked {
+  font-weight: bold;
+}

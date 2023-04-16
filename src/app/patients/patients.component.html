@@ -1,0 +1,56 @@
+<p class="main-text">PATIE<span class="red-text">NTS</span></p>
+<div class="divider-cont">
+  <div class="white-divider"><mat-divider></mat-divider></div>
+</div>
+<mat-form-field appearance="outline" class="full-width">
+  <mat-label>Search</mat-label>
+  <input
+    type="text"
+    matInput
+    placeholder="Search"
+    name="search"
+    [(ngModel)]="search"
+  />
+  <button matSuffix mat-icon-button aria-label="clear">
+    <mat-icon>search</mat-icon>
+  </button>
+</mat-form-field>
+
+<div class="container">
+  <!-- <mat-form-field>
+      <mat-label>Search</mat-label>
+      <input matInput type="text" />
+    </mat-form-field> -->
+
+  <div fxLayout="row">
+    <div fxFlex="25%" class="filter-container">
+      <mat-card>
+        <mat-form-field>
+          <input matInput type="text" placeholder="Filter 1" />
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput type="text" placeholder="Filter 2" />
+        </mat-form-field>
+      </mat-card>
+    </div>
+    <div fxFlex>
+      <div *ngFor="let item of ELEMENT_DATA">
+        <mat-card (click)="cardClicked(item)">
+          <mat-card-header>
+            <mat-card-title>{{ item.name }}</mat-card-title>
+            <mat-card-subtitle>{{ item.symbol }}</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>Position: {{ item.position }}</p>
+            <p>Weight: {{ item.weight }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <mat-paginator
+        [pageSize]="5"
+        [pageSizeOptions]="[5, 10, 25]"
+        showFirstLastButtons
+      ></mat-paginator>
+    </div>
+  </div>
+</div>

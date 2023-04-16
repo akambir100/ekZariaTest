@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+}
+
+.column {
+  flex-basis: 33.33%;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+
+.white-text {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.red-text {
+  color: red;
+}
+
+.main-text {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 11rem;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+.image {
+  width: 2.5rem;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+  margin-right: 1.5rem;
+}
+
+.social-media {
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.location-img {
+  width: 25rem;
+  height: auto;
+}
+
+.banner {
+  background-image: url("/assets/images/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.divider-cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.white-divider {
+  width: 70%;
+  height: 2px;
+  background-color: #ffffffa0;
+  margin-top: 2rem;
+}
+
+.small-divider {
+  width: 45%;
+  height: 2px;
+  background-color: #ffffffa0;
+  margin-top: 2rem;
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button {
+  background-color: red;
+  color: white;
+}
+
+.button-cont {
+  justify-content: center;
+  display: flex;
+  width: 80%;
+}
+
+.sub-column {
+  margin-top: 4rem;
+}
+
+mat-form-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+.input-data {
+  width: 80%;
+  height: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: transparent;
+  color: white;
+  font-family: Roboto, sans-serif;
+  padding-left: 1rem;
+}
+
+.input-text {
+  width: 80%;
+  height: 6rem;
+  margin-bottom: 1.5rem;
+  // max-width: 25rem;
+  // max-height: 20rem;
+  background-color: transparent;
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+}

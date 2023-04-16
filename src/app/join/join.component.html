@@ -1,0 +1,96 @@
+<div class="banner">
+  <p class="main-text">BE A <span class="red-text">MEMBER</span></p>
+  <div class="divider-cont">
+    <div class="white-divider"><mat-divider></mat-divider></div>
+  </div>
+
+  <div class="container">
+    <div>
+      <div class="form-row">
+        <div class="form-col">
+          <mat-form-field appearance="fill">
+            <mat-label>First Name</mat-label>
+            <input matInput required maxlength="15" />
+            <mat-error>Please enter your name</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="form-col">
+          <mat-form-field appearance="fill">
+            <mat-label>Last Name</mat-label>
+            <input matInput maxlength="15" />
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-col">
+          <mat-form-field appearance="fill">
+            <mat-label>Phone</mat-label>
+            <input matInput required />
+          </mat-form-field>
+        </div>
+        <div class="form-col">
+          <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput />
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-col">
+          <mat-form-field appearance="fill">
+            <mat-label>Country</mat-label>
+            <input matInput required maxlength="30" />
+          </mat-form-field>
+        </div>
+        <div class="form-col">
+          <mat-form-field appearance="fill">
+            <mat-label>City</mat-label>
+            <input matInput required maxlength="30" />
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-col">
+          <mat-form-field appearance="fill">
+            <mat-label>Profession</mat-label>
+            <mat-select required>
+              <mat-option value="Businessman">Businessman</mat-option>
+              <mat-option value="Doctor">Doctor</mat-option>
+              <mat-option value="Engineer">Engineer</mat-option>
+              <mat-option value="Lawyer">Lawyer</mat-option>
+              <mat-option value="Police">Police</mat-option>
+              <mat-option value="Student">Student</mat-option>
+              <mat-option value="Other">Other</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="form-col">
+          <mat-form-field appearance="fill">
+            <mat-label>NRI</mat-label>
+            <mat-select required>
+              <mat-option value="doctor">Yes</mat-option>
+              <mat-option value="engineer">No</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-col">
+          <mat-form-field appearance="fill">
+            <mat-label>Why do you want to join?</mat-label>
+            <textarea matInput required maxlength="300"></textarea>
+          </mat-form-field>
+        </div>
+        <div class="form-col">
+          <mat-form-field appearance="fill">
+            <mat-label>How can you contribute?</mat-label>
+            <textarea matInput required maxlength="30"></textarea>
+          </mat-form-field>
+        </div>
+      </div>
+      <button mat-raised-button color="warn">Submit</button>
+    </div>
+  </div>
+</div>

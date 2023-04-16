@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4rem;
+}
+.form-row {
+  display: flex;
+}
+
+.form-col {
+  margin: 0 10px;
+}
+mat-form-field {
+  width: 30rem;
+}
