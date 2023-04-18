@@ -17,11 +17,6 @@
 </mat-form-field>
 
 <div class="container">
-  <!-- <mat-form-field>
-      <mat-label>Search</mat-label>
-      <input matInput type="text" />
-    </mat-form-field> -->
-
   <div fxLayout="row">
     <div fxFlex="25%" class="filter-container">
       <mat-card>
@@ -33,6 +28,7 @@
         </mat-form-field>
       </mat-card>
     </div>
+
     <div fxFlex>
       <div *ngFor="let item of ELEMENT_DATA">
         <mat-card (click)="cardClicked(item)">

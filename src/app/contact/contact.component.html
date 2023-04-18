@@ -15,21 +15,33 @@
     <div class="column">
       <div class="sub-column">
         <p>Fill out the form to get in touch with us:</p>
-        <form>
-          <input class="input-data" matInput placeholder="Name *" />
-          <input class="input-data" matInput placeholder="Email *" />
-          <input class="input-data" matInput placeholder="Phone Number" />
-          <textarea
-            class="input-text"
-            matInput
-            placeholder="Message *"
-          ></textarea>
-          <div class="button-cont">
-            <button mat-raised-button color="primary" class="button">
-              Submit
-            </button>
-          </div>
-        </form>
+
+        <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input matInput required maxlength="40" />
+          <mat-error>Please enter your name</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input matInput maxlength="40" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Phone</mat-label>
+          <input matInput maxlength="15" />
+        </mat-form-field>
+
+        <mat-form-field>
+          <mat-label>Why do you want to join?</mat-label>
+          <textarea matInput required maxlength="300"></textarea>
+        </mat-form-field>
+
+        <div class="button-cont">
+          <button mat-raised-button color="primary" class="button">
+            Submit
+          </button>
+        </div>
       </div>
     </div>
     <div class="column">
